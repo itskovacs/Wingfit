@@ -1,0 +1,11 @@
+services:
+  wingfit:
+    build: .
+    container_name: wingfit_backend
+    ports:
+      - 127.0.0.1:8080:8000 #127.0.0.1: locally exposed, on port 8080 by default
+    volumes:
+      - ./backend/wingfit.sqlite:/app/wingfit.sqlite
+      - ./backend/config.yml:/app/config.yml
+      - ./backend/assets:/app/assets
+    command: ["fastapi", "run", "/app/fastapp.py", "--host", "0.0.0.0"]

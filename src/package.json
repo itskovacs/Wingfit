@@ -19,7 +19,7 @@
     "@angular/platform-browser-dynamic": "^19.1.5",
     "@angular/router": "^19.1.5",
     "@angular/service-worker": "^19.1.5",
-    "@material-symbols/font-300": "^0.28.1",
+    "@material-symbols/font-300": "^0.28.2",
     "@primeng/themes": "^19.0.5",
     "chart.js": "^4.4.7",
     "echarts": "^5.6.0",
